@@ -4,9 +4,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-body { 
-width: 98%;
-}
+    
+html {height:100%; margin:0px;}
+body {width: 98%;}
 
 table {
     width:100%;
@@ -25,25 +25,28 @@ th {
     color: white;
 }
 
+/****** BLOCKQUOTE ********
+**************************/
 blockquote{
 display:block;
 background: #fff;
-padding: 15px 20px 15px 45px;
+padding: 10px 20px 5px 25px;
 margin: 0 0 20px;
-position: relative; 
-font-family: Georgia, serif;
+position: relative;
 font-size: 16px;
 line-height: 1.2;
-color: #666;
+color: #222;
 text-align: justify;  
-border-left: 15px solid #1EB093;
+border-left: 8px solid #1EB093;
 border-right: 2px solid #1EB093;
 border-radius: 0.50em;
 -moz-box-shadow: 2px 2px 15px #ccc;
 -webkit-box-shadow: 2px 2px 15px #ccc;
 box-shadow: 2px 2px 15px #ccc;
 }
+    
 blockquote nar{
+font-family:Roboto;
 color: #1EB093;
 display: block;
 font-weight: bold;
@@ -71,10 +74,17 @@ color: #c76c0c;
 blockquote a:hover{
 color: #666;
 }
-blockquote em, cite, q{
-font-style: italic;
-display: block;
-text-align: right;
+    
+cite {
+padding:5px 0 0 20px;
+color:#888;
+display:block;
+position:relative;
+}
+cite:before {
+content:'\2014';
+left:0;
+position:20px;
 }
 
 h3 {
