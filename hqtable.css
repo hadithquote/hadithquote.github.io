@@ -1,27 +1,27 @@
-table { border-collapse:collapse; width: 100%; }
+table { border-collapse:collapse; }
 
 th {text-align:center;}
 td {
 	border-bottom:1px solid #1EB093;
 	padding:5px;
-	 font-size:100%;word-wrap: break-word;
+	 font-size:100%; word-wrap: break-word;
 }
-td.sol1 {
+td.tabe1 {
 background-color:#1EB093;
 color:#ffffff;
 text-align:center;
 border-bottom:1px solid #ffffff;
 padding:5px;
 }
-td.hove {width:100%;}
-td.sol2 {
+
+td.tabe3 {
 background-color:#1EB093;
 color:#ffffff;
 text-align:center;
 font-weight:bold;
 padding:5px;
 }
-td.sol3 {
+td.tabe4 {
 background-color:#324353;
 color:#ffffff;
 font-weight:bold;
@@ -30,7 +30,7 @@ padding:5px;
 
 td a{text-decoration:none;color:#222;}
 td a:hover{text-decoration:underline;color:blue;}
-td.hove:hover{background-color:#E6E6FA;}
+td.tabe2:hover{background-color:#E6E6FA;}
 td img {width:50px; height:auto;}
 	/*
 td img:hover {content: url('https://blog.formsite.com/blog/wp-
