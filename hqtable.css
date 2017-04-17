@@ -4,7 +4,7 @@ th {text-align:center;}
 td {
 	border-bottom:1px solid #1EB093;
 	padding:5px;
-	 font-size:100%;
+	 font-size:100%;word-wrap: break-word;
 }
 td.sol1 {
 background-color:#1EB093;
@@ -18,9 +18,16 @@ td.sol2 {
 background-color:#1EB093;
 color:#ffffff;
 text-align:center;
-border-bottom:1px solid #1EB093;
+font-weight:bold;
 padding:5px;
 }
+td.sol3 {
+background-color:#324353;
+color:#ffffff;
+font-weight:bold;
+padding:5px;
+}
+
 td a{text-decoration:none;color:#222;}
 td a:hover{text-decoration:underline;color:blue;}
 td.hove:hover{background-color:#E6E6FA;}
